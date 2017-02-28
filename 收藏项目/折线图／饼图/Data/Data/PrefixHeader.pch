@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  Data
+//
+//  Created by hipiao on 16/8/29.
+//  Copyright © 2016年 James. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/**
+ *  屏幕宽、高
+ */
+#define ScreenWidth    [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight   [UIScreen mainScreen].bounds.size.height
+
+
+
+#import "PYOption.h"
+#import "PYTitle.h"
+#import "PYTooltip.h"
+#import "PYGrid.h"
+
+#import <UIKit/UIKit.h>
+//For the Demo Test.
+#import "RMMapper.h"
+
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "iOS-Echarts.h"
+
+
+#endif /* PrefixHeader_pch */

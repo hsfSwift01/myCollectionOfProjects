@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A502538-C87B-4387-9593-FAA5B008AA28</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VBFPopFlatButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>812B8E635CF39CD906DE8FC7A4B95C026D170F6D</key>
+		<string>ssh://github.com/iBaro/VBFPopFlatButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VBFPopFlatButton.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>812B8E635CF39CD906DE8FC7A4B95C026D170F6D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/iBaro/VBFPopFlatButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>812B8E635CF39CD906DE8FC7A4B95C026D170F6D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>812B8E635CF39CD906DE8FC7A4B95C026D170F6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VBFPopFlatButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>

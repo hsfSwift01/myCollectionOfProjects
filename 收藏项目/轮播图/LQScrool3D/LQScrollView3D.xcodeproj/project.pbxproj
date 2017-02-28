@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44FA7AB1DF7B19600785ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A44FA7AA1DF7B19600785ADB /* main.m */; };
+		A44FA7AE1DF7B19600785ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A44FA7AD1DF7B19600785ADB /* AppDelegate.m */; };
+		A44FA7B11DF7B19600785ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44FA7B01DF7B19600785ADB /* ViewController.m */; };
+		A44FA7B41DF7B19600785ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44FA7B21DF7B19600785ADB /* Main.storyboard */; };
+		A44FA7B61DF7B19600785ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44FA7B51DF7B19600785ADB /* Assets.xcassets */; };
+		A44FA7B91DF7B19600785ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44FA7B71DF7B19600785ADB /* LaunchScreen.storyboard */; };
+		A44FA7C41DF7B19600785ADB /* LQScrollView3DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A44FA7C31DF7B19600785ADB /* LQScrollView3DTests.m */; };
+		A44FA7CF1DF7B19600785ADB /* LQScrollView3DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A44FA7CE1DF7B19600785ADB /* LQScrollView3DUITests.m */; };
+		A44FA7DE1DF7B1C900785ADB /* LQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A44FA7DD1DF7B1C900785ADB /* LQScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A44FA7C01DF7B19600785ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44FA79E1DF7B19600785ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44FA7A51DF7B19600785ADB;
+			remoteInfo = LQScrollView3D;
+		};
+		A44FA7CB1DF7B19600785ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44FA79E1DF7B19600785ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44FA7A51DF7B19600785ADB;
+			remoteInfo = LQScrollView3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A44FA7A61DF7B19600785ADB /* LQScrollView3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQScrollView3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44FA7AA1DF7B19600785ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A44FA7AC1DF7B19600785ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A44FA7AD1DF7B19600785ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A44FA7AF1DF7B19600785ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A44FA7B01DF7B19600785ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A44FA7B31DF7B19600785ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A44FA7B51DF7B19600785ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44FA7B81DF7B19600785ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A44FA7BA1DF7B19600785ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44FA7BF1DF7B19600785ADB /* LQScrollView3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQScrollView3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44FA7C31DF7B19600785ADB /* LQScrollView3DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQScrollView3DTests.m; sourceTree = "<group>"; };
+		A44FA7C51DF7B19600785ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44FA7CA1DF7B19600785ADB /* LQScrollView3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQScrollView3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44FA7CE1DF7B19600785ADB /* LQScrollView3DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQScrollView3DUITests.m; sourceTree = "<group>"; };
+		A44FA7D01DF7B19600785ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44FA7DC1DF7B1C900785ADB /* LQScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQScrollView.h; sourceTree = "<group>"; };
+		A44FA7DD1DF7B1C900785ADB /* LQScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A44FA7A31DF7B19600785ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44FA7BC1DF7B19600785ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44FA7C71DF7B19600785ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44FA79D1DF7B19600785ADB = {
+			isa = PBXGroup;
+			children = (
+				A44FA7A81DF7B19600785ADB /* LQScrollView3D */,
+				A44FA7C21DF7B19600785ADB /* LQScrollView3DTests */,
+				A44FA7CD1DF7B19600785ADB /* LQScrollView3DUITests */,
+				A44FA7A71DF7B19600785ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A44FA7A71DF7B19600785ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44FA7A61DF7B19600785ADB /* LQScrollView3D.app */,
+				A44FA7BF1DF7B19600785ADB /* LQScrollView3DTests.xctest */,
+				A44FA7CA1DF7B19600785ADB /* LQScrollView3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44FA7A81DF7B19600785ADB /* LQScrollView3D */ = {
+			isa = PBXGroup;
+			children = (
+				A44FA7AC1DF7B19600785ADB /* AppDelegate.h */,
+				A44FA7AD1DF7B19600785ADB /* AppDelegate.m */,
+				A44FA7AF1DF7B19600785ADB /* ViewController.h */,
+				A44FA7B01DF7B19600785ADB /* ViewController.m */,
+				A44FA7DC1DF7B1C900785ADB /* LQScrollView.h */,
+				A44FA7DD1DF7B1C900785ADB /* LQScrollView.m */,
+				A44FA7B21DF7B19600785ADB /* Main.storyboard */,
+				A44FA7B51DF7B19600785ADB /* Assets.xcassets */,
+				A44FA7B71DF7B19600785ADB /* LaunchScreen.storyboard */,
+				A44FA7BA1DF7B19600785ADB /* Info.plist */,
+				A44FA7A91DF7B19600785ADB /* Supporting Files */,
+			);
+			path = LQScrollView3D;
+			sourceTree = "<group>";
+		};
+		A44FA7A91DF7B19600785ADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A44FA7AA1DF7B19600785ADB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A44FA7C21DF7B19600785ADB /* LQScrollView3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				A44FA7C31DF7B19600785ADB /* LQScrollView3DTests.m */,
+				A44FA7C51DF7B19600785ADB /* Info.plist */,
+			);
+			path = LQScrollView3DTests;
+			sourceTree = "<group>";
+		};
+		A44FA7CD1DF7B19600785ADB /* LQScrollView3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A44FA7CE1DF7B19600785ADB /* LQScrollView3DUITests.m */,
+				A44FA7D01DF7B19600785ADB /* Info.plist */,
+			);
+			path = LQScrollView3DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44FA7A51DF7B19600785ADB /* LQScrollView3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44FA7D31DF7B19600785ADB /* Build configuration list for PBXNativeTarget "LQScrollView3D" */;
+			buildPhases = (
+				A44FA7A21DF7B19600785ADB /* Sources */,
+				A44FA7A31DF7B19600785ADB /* Frameworks */,
+				A44FA7A41DF7B19600785ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQScrollView3D;
+			productName = LQScrollView3D;
+			productReference = A44FA7A61DF7B19600785ADB /* LQScrollView3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A44FA7BE1DF7B19600785ADB /* LQScrollView3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44FA7D61DF7B19600785ADB /* Build configuration list for PBXNativeTarget "LQScrollView3DTests" */;
+			buildPhases = (
+				A44FA7BB1DF7B19600785ADB /* Sources */,
+				A44FA7BC1DF7B19600785ADB /* Frameworks */,
+				A44FA7BD1DF7B19600785ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44FA7C11DF7B19600785ADB /* PBXTargetDependency */,
+			);
+			name = LQScrollView3DTests;
+			productName = LQScrollView3DTests;
+			productReference = A44FA7BF1DF7B19600785ADB /* LQScrollView3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A44FA7C91DF7B19600785ADB /* LQScrollView3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44FA7D91DF7B19600785ADB /* Build configuration list for PBXNativeTarget "LQScrollView3DUITests" */;
+			buildPhases = (
+				A44FA7C61DF7B19600785ADB /* Sources */,
+				A44FA7C71DF7B19600785ADB /* Frameworks */,
+				A44FA7C81DF7B19600785ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44FA7CC1DF7B19600785ADB /* PBXTargetDependency */,
+			);
+			name = LQScrollView3DUITests;
+			productName = LQScrollView3DUITests;
+			productReference = A44FA7CA1DF7B19600785ADB /* LQScrollView3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44FA79E1DF7B19600785ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhengliqiang;
+				TargetAttributes = {
+					A44FA7A51DF7B19600785ADB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M953P4C32U;
+						ProvisioningStyle = Automatic;
+					};
+					A44FA7BE1DF7B19600785ADB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A44FA7A51DF7B19600785ADB;
+					};
+					A44FA7C91DF7B19600785ADB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A44FA7A51DF7B19600785ADB;
+					};
+				};
+			};
+			buildConfigurationList = A44FA7A11DF7B19600785ADB /* Build configuration list for PBXProject "LQScrollView3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A44FA79D1DF7B19600785ADB;
+			productRefGroup = A44FA7A71DF7B19600785ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44FA7A51DF7B19600785ADB /* LQScrollView3D */,
+				A44FA7BE1DF7B19600785ADB /* LQScrollView3DTests */,
+				A44FA7C91DF7B19600785ADB /* LQScrollView3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A44FA7A41DF7B19600785ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44FA7B91DF7B19600785ADB /* LaunchScreen.storyboard in Resources */,
+				A44FA7B61DF7B19600785ADB /* Assets.xcassets in Resources */,
+				A44FA7B41DF7B19600785ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44FA7BD1DF7B19600785ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44FA7C81DF7B19600785ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44FA7A21DF7B19600785ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44FA7DE1DF7B1C900785ADB /* LQScrollView.m in Sources */,
+				A44FA7B11DF7B19600785ADB /* ViewController.m in Sources */,
+				A44FA7AE1DF7B19600785ADB /* AppDelegate.m in Sources */,
+				A44FA7AB1DF7B19600785ADB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44FA7BB1DF7B19600785ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44FA7C41DF7B19600785ADB /* LQScrollView3DTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44FA7C61DF7B19600785ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44FA7CF1DF7B19600785ADB /* LQScrollView3DUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A44FA7C11DF7B19600785ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44FA7A51DF7B19600785ADB /* LQScrollView3D */;
+			targetProxy = A44FA7C01DF7B19600785ADB /* PBXContainerItemProxy */;
+		};
+		A44FA7CC1DF7B19600785ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44FA7A51DF7B19600785ADB /* LQScrollView3D */;
+			targetProxy = A44FA7CB1DF7B19600785ADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A44FA7B21DF7B19600785ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44FA7B31DF7B19600785ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A44FA7B71DF7B19600785ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44FA7B81DF7B19600785ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A44FA7D11DF7B19600785ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A44FA7D21DF7B19600785ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A44FA7D41DF7B19600785ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M953P4C32U;
+				INFOPLIST_FILE = LQScrollView3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQScrollView3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A44FA7D51DF7B19600785ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M953P4C32U;
+				INFOPLIST_FILE = LQScrollView3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQScrollView3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A44FA7D71DF7B19600785ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LQScrollView3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQScrollView3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQScrollView3D.app/LQScrollView3D";
+			};
+			name = Debug;
+		};
+		A44FA7D81DF7B19600785ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LQScrollView3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQScrollView3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQScrollView3D.app/LQScrollView3D";
+			};
+			name = Release;
+		};
+		A44FA7DA1DF7B19600785ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LQScrollView3DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQScrollView3DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LQScrollView3D;
+			};
+			name = Debug;
+		};
+		A44FA7DB1DF7B19600785ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LQScrollView3DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LQScrollView3DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LQScrollView3D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A44FA7A11DF7B19600785ADB /* Build configuration list for PBXProject "LQScrollView3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44FA7D11DF7B19600785ADB /* Debug */,
+				A44FA7D21DF7B19600785ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44FA7D31DF7B19600785ADB /* Build configuration list for PBXNativeTarget "LQScrollView3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44FA7D41DF7B19600785ADB /* Debug */,
+				A44FA7D51DF7B19600785ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44FA7D61DF7B19600785ADB /* Build configuration list for PBXNativeTarget "LQScrollView3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44FA7D71DF7B19600785ADB /* Debug */,
+				A44FA7D81DF7B19600785ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44FA7D91DF7B19600785ADB /* Build configuration list for PBXNativeTarget "LQScrollView3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44FA7DA1DF7B19600785ADB /* Debug */,
+				A44FA7DB1DF7B19600785ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A44FA79E1DF7B19600785ADB /* Project object */;
+}

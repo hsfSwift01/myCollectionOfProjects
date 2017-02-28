@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode7.1
+before_install: 
+    - rake install
+script: 
+    - rake clean
+    - rake build
+    - rake analyze

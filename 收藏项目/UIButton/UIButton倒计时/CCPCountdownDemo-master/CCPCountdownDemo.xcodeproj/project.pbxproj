@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21193BFE1D222D440011CF6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21193BFD1D222D440011CF6B /* main.m */; };
+		21193C011D222D440011CF6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21193C001D222D440011CF6B /* AppDelegate.m */; };
+		21193C041D222D440011CF6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21193C031D222D440011CF6B /* ViewController.m */; };
+		21193C071D222D440011CF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21193C051D222D440011CF6B /* Main.storyboard */; };
+		21193C091D222D440011CF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21193C081D222D440011CF6B /* Assets.xcassets */; };
+		21193C0C1D222D440011CF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21193C0A1D222D440011CF6B /* LaunchScreen.storyboard */; };
+		21193C171D222D440011CF6B /* CCPCountdownDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21193C161D222D440011CF6B /* CCPCountdownDemoTests.m */; };
+		21193C221D222D440011CF6B /* CCPCountdownDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21193C211D222D440011CF6B /* CCPCountdownDemoUITests.m */; };
+		21D7C2E31D7514EC001EF2D8 /* CCPCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D7C2E21D7514EC001EF2D8 /* CCPCountDownButton.m */; };
+		21D7C2EA1D7522F0001EF2D8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D7C2E91D7522F0001EF2D8 /* MBProgressHUD.m */; };
+		21D7C2EC1D75393F001EF2D8 /* ccpbutton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 21D7C2EB1D75393F001EF2D8 /* ccpbutton.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21193C131D222D440011CF6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21193BF11D222D440011CF6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21193BF81D222D440011CF6B;
+			remoteInfo = CCPCountdownDemo;
+		};
+		21193C1E1D222D440011CF6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21193BF11D222D440011CF6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21193BF81D222D440011CF6B;
+			remoteInfo = CCPCountdownDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21193BF91D222D440011CF6B /* CCPCountdownDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPCountdownDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21193BFD1D222D440011CF6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21193BFF1D222D440011CF6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21193C001D222D440011CF6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21193C021D222D440011CF6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21193C031D222D440011CF6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21193C061D222D440011CF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21193C081D222D440011CF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21193C0B1D222D440011CF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21193C0D1D222D440011CF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21193C121D222D440011CF6B /* CCPCountdownDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPCountdownDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21193C161D222D440011CF6B /* CCPCountdownDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPCountdownDemoTests.m; sourceTree = "<group>"; };
+		21193C181D222D440011CF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21193C1D1D222D440011CF6B /* CCPCountdownDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPCountdownDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21193C211D222D440011CF6B /* CCPCountdownDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPCountdownDemoUITests.m; sourceTree = "<group>"; };
+		21193C231D222D440011CF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D7C2E11D7514EC001EF2D8 /* CCPCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPCountDownButton.h; sourceTree = "<group>"; };
+		21D7C2E21D7514EC001EF2D8 /* CCPCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPCountDownButton.m; sourceTree = "<group>"; };
+		21D7C2E81D7522F0001EF2D8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		21D7C2E91D7522F0001EF2D8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		21D7C2EB1D75393F001EF2D8 /* ccpbutton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ccpbutton.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21193BF61D222D440011CF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21193C0F1D222D440011CF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21193C1A1D222D440011CF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21193BF01D222D440011CF6B = {
+			isa = PBXGroup;
+			children = (
+				21193BFB1D222D440011CF6B /* CCPCountdownDemo */,
+				21193C151D222D440011CF6B /* CCPCountdownDemoTests */,
+				21193C201D222D440011CF6B /* CCPCountdownDemoUITests */,
+				21193BFA1D222D440011CF6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21193BFA1D222D440011CF6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21193BF91D222D440011CF6B /* CCPCountdownDemo.app */,
+				21193C121D222D440011CF6B /* CCPCountdownDemoTests.xctest */,
+				21193C1D1D222D440011CF6B /* CCPCountdownDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21193BFB1D222D440011CF6B /* CCPCountdownDemo */ = {
+			isa = PBXGroup;
+			children = (
+				21D7C2EB1D75393F001EF2D8 /* ccpbutton.gif */,
+				21D7C2E71D7522F0001EF2D8 /* MBProgressHUD */,
+				21D7C2E01D7514AF001EF2D8 /* CCPCountDownButton */,
+				21193BFF1D222D440011CF6B /* AppDelegate.h */,
+				21193C001D222D440011CF6B /* AppDelegate.m */,
+				21193C021D222D440011CF6B /* ViewController.h */,
+				21193C031D222D440011CF6B /* ViewController.m */,
+				21193C051D222D440011CF6B /* Main.storyboard */,
+				21193C081D222D440011CF6B /* Assets.xcassets */,
+				21193C0A1D222D440011CF6B /* LaunchScreen.storyboard */,
+				21193C0D1D222D440011CF6B /* Info.plist */,
+				21193BFC1D222D440011CF6B /* Supporting Files */,
+			);
+			path = CCPCountdownDemo;
+			sourceTree = "<group>";
+		};
+		21193BFC1D222D440011CF6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21193BFD1D222D440011CF6B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21193C151D222D440011CF6B /* CCPCountdownDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				21193C161D222D440011CF6B /* CCPCountdownDemoTests.m */,
+				21193C181D222D440011CF6B /* Info.plist */,
+			);
+			path = CCPCountdownDemoTests;
+			sourceTree = "<group>";
+		};
+		21193C201D222D440011CF6B /* CCPCountdownDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21193C211D222D440011CF6B /* CCPCountdownDemoUITests.m */,
+				21193C231D222D440011CF6B /* Info.plist */,
+			);
+			path = CCPCountdownDemoUITests;
+			sourceTree = "<group>";
+		};
+		21D7C2E01D7514AF001EF2D8 /* CCPCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				21D7C2E11D7514EC001EF2D8 /* CCPCountDownButton.h */,
+				21D7C2E21D7514EC001EF2D8 /* CCPCountDownButton.m */,
+			);
+			path = CCPCountDownButton;
+			sourceTree = "<group>";
+		};
+		21D7C2E71D7522F0001EF2D8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				21D7C2E81D7522F0001EF2D8 /* MBProgressHUD.h */,
+				21D7C2E91D7522F0001EF2D8 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21193BF81D222D440011CF6B /* CCPCountdownDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21193C261D222D440011CF6B /* Build configuration list for PBXNativeTarget "CCPCountdownDemo" */;
+			buildPhases = (
+				21193BF51D222D440011CF6B /* Sources */,
+				21193BF61D222D440011CF6B /* Frameworks */,
+				21193BF71D222D440011CF6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCPCountdownDemo;
+			productName = CCPCountdownDemo;
+			productReference = 21193BF91D222D440011CF6B /* CCPCountdownDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21193C111D222D440011CF6B /* CCPCountdownDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21193C291D222D440011CF6B /* Build configuration list for PBXNativeTarget "CCPCountdownDemoTests" */;
+			buildPhases = (
+				21193C0E1D222D440011CF6B /* Sources */,
+				21193C0F1D222D440011CF6B /* Frameworks */,
+				21193C101D222D440011CF6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21193C141D222D440011CF6B /* PBXTargetDependency */,
+			);
+			name = CCPCountdownDemoTests;
+			productName = CCPCountdownDemoTests;
+			productReference = 21193C121D222D440011CF6B /* CCPCountdownDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21193C1C1D222D440011CF6B /* CCPCountdownDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21193C2C1D222D440011CF6B /* Build configuration list for PBXNativeTarget "CCPCountdownDemoUITests" */;
+			buildPhases = (
+				21193C191D222D440011CF6B /* Sources */,
+				21193C1A1D222D440011CF6B /* Frameworks */,
+				21193C1B1D222D440011CF6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21193C1F1D222D440011CF6B /* PBXTargetDependency */,
+			);
+			name = CCPCountdownDemoUITests;
+			productName = CCPCountdownDemoUITests;
+			productReference = 21193C1D1D222D440011CF6B /* CCPCountdownDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21193BF11D222D440011CF6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CCP;
+				TargetAttributes = {
+					21193BF81D222D440011CF6B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					21193C111D222D440011CF6B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 21193BF81D222D440011CF6B;
+					};
+					21193C1C1D222D440011CF6B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 21193BF81D222D440011CF6B;
+					};
+				};
+			};
+			buildConfigurationList = 21193BF41D222D440011CF6B /* Build configuration list for PBXProject "CCPCountdownDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21193BF01D222D440011CF6B;
+			productRefGroup = 21193BFA1D222D440011CF6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21193BF81D222D440011CF6B /* CCPCountdownDemo */,
+				21193C111D222D440011CF6B /* CCPCountdownDemoTests */,
+				21193C1C1D222D440011CF6B /* CCPCountdownDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21193BF71D222D440011CF6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21193C0C1D222D440011CF6B /* LaunchScreen.storyboard in Resources */,
+				21193C091D222D440011CF6B /* Assets.xcassets in Resources */,
+				21193C071D222D440011CF6B /* Main.storyboard in Resources */,
+				21D7C2EC1D75393F001EF2D8 /* ccpbutton.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21193C101D222D440011CF6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21193C1B1D222D440011CF6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21193BF51D222D440011CF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21193C041D222D440011CF6B /* ViewController.m in Sources */,
+				21D7C2E31D7514EC001EF2D8 /* CCPCountDownButton.m in Sources */,
+				21193C011D222D440011CF6B /* AppDelegate.m in Sources */,
+				21193BFE1D222D440011CF6B /* main.m in Sources */,
+				21D7C2EA1D7522F0001EF2D8 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21193C0E1D222D440011CF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21193C171D222D440011CF6B /* CCPCountdownDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21193C191D222D440011CF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21193C221D222D440011CF6B /* CCPCountdownDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21193C141D222D440011CF6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21193BF81D222D440011CF6B /* CCPCountdownDemo */;
+			targetProxy = 21193C131D222D440011CF6B /* PBXContainerItemProxy */;
+		};
+		21193C1F1D222D440011CF6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21193BF81D222D440011CF6B /* CCPCountdownDemo */;
+			targetProxy = 21193C1E1D222D440011CF6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21193C051D222D440011CF6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21193C061D222D440011CF6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21193C0A1D222D440011CF6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21193C0B1D222D440011CF6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21193C241D222D440011CF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21193C251D222D440011CF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21193C271D222D440011CF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCPCountdownDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCP.CCPCountdownDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21193C281D222D440011CF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCPCountdownDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCP.CCPCountdownDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21193C2A1D222D440011CF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCPCountdownDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCP.CCPCountdownDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCPCountdownDemo.app/CCPCountdownDemo";
+			};
+			name = Debug;
+		};
+		21193C2B1D222D440011CF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCPCountdownDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCP.CCPCountdownDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCPCountdownDemo.app/CCPCountdownDemo";
+			};
+			name = Release;
+		};
+		21193C2D1D222D440011CF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCPCountdownDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCP.CCPCountdownDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCPCountdownDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		21193C2E1D222D440011CF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCPCountdownDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CCP.CCPCountdownDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCPCountdownDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21193BF41D222D440011CF6B /* Build configuration list for PBXProject "CCPCountdownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21193C241D222D440011CF6B /* Debug */,
+				21193C251D222D440011CF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21193C261D222D440011CF6B /* Build configuration list for PBXNativeTarget "CCPCountdownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21193C271D222D440011CF6B /* Debug */,
+				21193C281D222D440011CF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21193C291D222D440011CF6B /* Build configuration list for PBXNativeTarget "CCPCountdownDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21193C2A1D222D440011CF6B /* Debug */,
+				21193C2B1D222D440011CF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21193C2C1D222D440011CF6B /* Build configuration list for PBXNativeTarget "CCPCountdownDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21193C2D1D222D440011CF6B /* Debug */,
+				21193C2E1D222D440011CF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21193BF11D222D440011CF6B /* Project object */;
+}
