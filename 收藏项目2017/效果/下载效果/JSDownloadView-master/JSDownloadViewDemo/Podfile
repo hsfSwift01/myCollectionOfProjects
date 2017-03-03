@@ -1,0 +1,7 @@
+target 'JSDownloadViewDemo' do
+
+pod 'JSDownloadView'
+
+pod 'AFNetworking'
+
+end
